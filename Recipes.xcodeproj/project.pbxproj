@@ -478,7 +478,6 @@
 				D29C8B4F2041622900F6DFC0 /* Resources */,
 				D2D1454E204182F600B31280 /* SwiftLint */,
 				D3627BD33A06E5114D95C50A /* [CP] Embed Pods Frameworks */,
-				1AC5414FD7DC6417186C42A8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -497,8 +496,6 @@
 				D29C8B612041622900F6DFC0 /* Sources */,
 				D29C8B622041622900F6DFC0 /* Frameworks */,
 				D29C8B632041622900F6DFC0 /* Resources */,
-				6A71297EDC420C872BE9B4AD /* [CP] Embed Pods Frameworks */,
-				20108EEAAE22BECAFC47B11B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -518,8 +515,6 @@
 				D29C8B6C2041622A00F6DFC0 /* Sources */,
 				D29C8B6D2041622A00F6DFC0 /* Frameworks */,
 				D29C8B6E2041622A00F6DFC0 /* Resources */,
-				94068D3026872CC2B8F89FC2 /* [CP] Embed Pods Frameworks */,
-				15D757B398228501FC0D4448 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -606,51 +601,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		15D757B398228501FC0D4448 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RecipesUITests/Pods-RecipesUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1AC5414FD7DC6417186C42A8 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Recipes/Pods-Recipes-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		20108EEAAE22BECAFC47B11B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RecipesTests/Pods-RecipesTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		3ACF734DB59FDA177E1AF598 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -687,21 +637,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6A71297EDC420C872BE9B4AD /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RecipesTests/Pods-RecipesTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		6FF0F054028C8515D88FBDBF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -718,21 +653,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		94068D3026872CC2B8F89FC2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RecipesUITests/Pods-RecipesUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D2D1454E204182F600B31280 /* SwiftLint */ = {
@@ -769,7 +689,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Recipes/Pods-Recipes-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Recipes/Pods-Recipes-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftHash/SwiftHash.framework",
 			);
@@ -780,7 +700,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Recipes/Pods-Recipes-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Recipes/Pods-Recipes-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -985,7 +905,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T78DK947F2;
+				DEVELOPMENT_TEAM = RJ7P299SA4;
 				INFOPLIST_FILE = "$(SRCROOT)/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1001,7 +921,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T78DK947F2;
+				DEVELOPMENT_TEAM = RJ7P299SA4;
 				INFOPLIST_FILE = "$(SRCROOT)/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1018,7 +938,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T78DK947F2;
+				DEVELOPMENT_TEAM = RJ7P299SA4;
 				INFOPLIST_FILE = RecipesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = no.onmyway133.RecipesTests;
@@ -1036,7 +956,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T78DK947F2;
+				DEVELOPMENT_TEAM = RJ7P299SA4;
 				INFOPLIST_FILE = RecipesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = no.onmyway133.RecipesTests;
@@ -1053,7 +973,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T78DK947F2;
+				DEVELOPMENT_TEAM = RJ7P299SA4;
 				INFOPLIST_FILE = RecipesUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = no.onmyway133.RecipesUITests;
@@ -1070,7 +990,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T78DK947F2;
+				DEVELOPMENT_TEAM = RJ7P299SA4;
 				INFOPLIST_FILE = RecipesUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = no.onmyway133.RecipesUITests;
